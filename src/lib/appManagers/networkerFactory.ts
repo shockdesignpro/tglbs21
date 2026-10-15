@@ -54,7 +54,7 @@ export class NetworkerFactory extends AppManager {
         id: App.id,
         deviceModel: 'Samsung S21 Ultra 5G',
         systemVersion: 'Telegram Android 13.0.0',
-        version: '13.0.0',
+        version: '13.0.2',
         systemLangCode: navigator.language || 'en',
         langPack: App.langPack,
         langCode: this.language
