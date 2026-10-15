@@ -52,8 +52,8 @@ export class NetworkerFactory extends AppManager {
       timeManager: this.timeManager,
       getInitConnectionParams: () => ({
         id: App.id,
-        deviceModel: this.customDeviceModel || getEnvironment().USER_AGENT || 'Unknown UserAgent',
-        systemVersion: navigator.platform || 'Unknown Platform',
+        deviceModel: this.customDeviceModel || getEnvironment().USER_AGENT || 'Samsung S21 Ultra 5G',
+        systemVersion: navigator.platform || 'Telegram Android 13.0.0',
         version: App.version + (App.isMainDomain ? ' ' + App.suffix : ''),
         systemLangCode: navigator.language || 'en',
         langPack: App.langPack,
