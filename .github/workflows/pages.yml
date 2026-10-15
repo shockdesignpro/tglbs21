@@ -26,6 +26,7 @@ jobs:
         env:
           VITE_API_ID: ${{ secrets.VITE_API_ID }}
           VITE_API_HASH: ${{ secrets.VITE_API_HASH }}
+      - run: cp -rn public/. dist/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
